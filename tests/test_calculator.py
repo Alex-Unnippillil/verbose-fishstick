@@ -1,8 +1,4 @@
-import sys
-from pathlib import Path
-
-sys.path.append(str(Path(__file__).resolve().parent.parent))
-from calculator import add, subtract  # noqa: E402
+from verbose_fishstick.calculator import add, subtract
 
 
 def test_addition():

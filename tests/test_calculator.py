@@ -1,3 +1,7 @@
+from src.verbose_fishstick import add, subtract
+
+
+=======
 from verbose_fishstick import add, subtract
 =======
 from verbose_fishstick.calculator import add, subtract
@@ -16,3 +20,4 @@ def test_addition() -> None:
 
 def test_subtraction() -> None:
     assert subtract(5, 3) == 2
+
